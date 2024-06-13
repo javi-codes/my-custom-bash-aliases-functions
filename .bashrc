@@ -17,3 +17,6 @@ alias now="date +%T"
 alias gs='git status'
 alias gb='git branch'   
 alias gr='git remote -v'
+alias home="cd $HOME"
+alias projects="cd $HOME/Desktop/projects"
+
