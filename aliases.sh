@@ -1,21 +1,5 @@
 # === 🛠️ Custom Shell Functions ===
 
-# Make a directory and cd into it
-mcd() {
-    mkdir -p "$1" && cd "$1"
-}
-
-# Reload Bash
-reload_bash() {
-    source ~/.bashrc && echo "Bash reloaded successfully!"
-}
-
-# Reload Zsh
-reload_zsh() {
-    source ~/.zshrc && echo "Zsh reloaded successfully!"
-}
-
-
 # === 📁 Directory Navigation ===
 
 alias ..="cd .."
